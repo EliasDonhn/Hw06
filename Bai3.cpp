@@ -3,8 +3,18 @@
 
 using namespace std;
 
-char minNumber(string decimalString, int n){
-    
+string minNumber(string decimalString){
+    if(decimalString.length() == 1) return decimalString;
+    else{
+        if(decimalString[0] <= decimalString[1]){
+            decimalString.erase(decimalString.begin() + 1);
+            return minNumber(decimalString);
+        }
+        else{
+            decimalString.erase(decimalString.begin());
+            return minNumber(decimalString);
+        }
+    }
 }
 
 int main(){
@@ -17,7 +27,6 @@ int main(){
             return 0;
         }
     }
-    char minNum = minNumber(decimalString, decimalString.length());
-    cout << "Chu so thap phan nho nhat la " << minNum;
+    cout << "Chu so thap phan nho nhat la " << minNumber(decimalString);
     return 0;
 }
