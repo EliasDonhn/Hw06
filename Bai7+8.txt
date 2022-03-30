@@ -1,0 +1,21 @@
+Bài 7:
+
+Mô tả:
+Các xâu trong tập có dạng gồm các ngoặc:
+Đầu tiên là xâu rỗng
+Giả sử x,y là một xâu trong tập
+thì xâu (x) và xâu xy cũng là một xâu trong tập
+
+Ví dụ, x là xâu rỗng thì ta có "()" là một xâu trong tập
+
+Nếu x là xâu "()", y cũng là xâu "()" thì ta có xâu "(())"
+và xâu "()()" cũng là một xâu trong tập
+
+Các xâu trong tập gồm 6 kí tự là:
+()()()  ((()))  (())()  ()(())  (()()) 
+
+
+
+Bài 8:
+Các xâu ngoặc đối xứng gồm không quá 4 kí tự là:
+Xâu Lamda, (), (()), ()()

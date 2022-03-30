@@ -1,0 +1,9 @@
+Định nghĩa xâu có số chữ số 0 nhiều hơn số chữ số 1
+
+        Ta có xâu 0 thuộc B
+        Với xâu x thuộc B, ta có các xâu: 0x, x0, 10x, 1x0, x10, 01x, 0x1, x01 cũng thuộc B 
+
+Ví dụ: 
+Ban đầu ta có xâu 0
+Từ đây ta có thể thấy các xâu sau cũng thỏa mãn:
+00, 100, 010, 001, 000, 10100, 10010,...

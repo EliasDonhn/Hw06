@@ -1,0 +1,8 @@
+Các phần tử trong tập A đều có đặc điểm đều là các xâu nhị phân bao gồm n kí tự 0
+đi trước và theo sau nó là n kí tự 1 (với n là số tự nhiên)
+
+Dạng tổng quát:
+                00000...0000011111...11111
+                -gồm n bit 0--gồm n bit 1-
+
+Ví dụ: Lamda, 01, 0011, 000111, 00001111, 0000011111,...

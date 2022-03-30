@@ -1,0 +1,11 @@
+Định nghĩa xâu nhị phân đối xứng:
+
+        lamda thuộc B với lamda là xâu rỗng
+        Với x thuộc B thì 0x0, 1x1 là thuộc B
+
+Ví dụ:
+    Ban đầu ta có xâu rỗng lamda là xâu đối xứng
+    như vậy ta sẽ có xâu 00, 11 cũng là xâu đối xứng
+    tiếp tục, ta có các xâu 0000, 0110, 1001, 1111 cũng
+    là xâu đối xứng
+    ....
