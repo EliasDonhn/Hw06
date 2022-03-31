@@ -1,6 +1,6 @@
 Định nghĩa xâu nhị phân đối xứng:
 
-        lamda thuộc B với lamda là xâu rỗng
+        lamda thuộc B với lamda là xâu rỗng, xâu "0", xâu "1" cũng thuộc B.
         Với x thuộc B thì 0x0, 1x1 là thuộc B
 
 Ví dụ:
@@ -9,3 +9,6 @@ Ví dụ:
     tiếp tục, ta có các xâu 0000, 0110, 1001, 1111 cũng
     là xâu đối xứng
     ....
+
+    Hoặc ban đầu ta có xâu 0. Như vậy, các xâu 000, 101, 00000, 11011, 01010, .. cũng là xâu đối xứng
+    
